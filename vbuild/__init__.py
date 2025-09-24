@@ -9,7 +9,7 @@
 # #############################################################################
 __version__ = "0.0.0" # auto-updated
 
-import re, os, json, glob, itertools, traceback, subprocess
+import re, os, json, glob, itertools, traceback, subprocess, importlib
 
 try:
     from HTMLParser import HTMLParser
